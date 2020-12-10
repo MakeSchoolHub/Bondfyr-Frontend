@@ -1,0 +1,18 @@
+.Showcase{
+    position: relative;
+}
+.ShowcasePhoto{
+    height: 70vh;
+    width:100%;
+    object-position: 30% 10%;
+    object-fit: cover;
+}
+
+.EventName{
+    color:blue;
+    position: absolute;
+    /* text-align: center;
+    top: 0; */
+    /* z-index: -10; */
+    position: absolute;
+}

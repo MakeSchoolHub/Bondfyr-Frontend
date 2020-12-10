@@ -1,9 +1,29 @@
 .Event {
-    width: 100%;
+    width: 50vh;
     text-align: center;
+    background-color: rgba(164, 176, 193, 0.5);
   }
   
   .Event > img {
-    width: 100%;
-    height: auto;
+    margin-top: 2vh;
+    width: 45vh;
+    height: 30vh;
+    object-position: 30% 10%;
+    object-fit: cover;
   }
+
+h1{
+    font-size: 3.5vh;
+    margin: 0;
+}
+h2{
+    font-size: 2vh;
+    margin: 0.5vh;
+}
+h3{
+    text-align: center;
+    font-size: 1.2vh;
+    margin-top: 0;
+    padding-left:4vh;
+    padding-right:4vh;
+}

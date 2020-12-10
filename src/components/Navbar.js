@@ -33,7 +33,7 @@ function NavBar() {
           className="nav-link"
           activeClassName="nav-link-active"
           exact
-          to="/contact">Contact Us
+          to="/lounge">Lounge
         </NavLink>
         </header>
       </div>
