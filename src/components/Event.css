@@ -1,0 +1,9 @@
+.Event {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .Event > img {
+    width: 100%;
+    height: auto;
+  }
