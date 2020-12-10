@@ -1,10 +1,10 @@
 import React from 'react';
 import Event from './Event';
-import './EventList.css';
+import './EventShowcase.css';
 import data from './events.json';
 
-function EventList() {
-    const events = data.map(( { image, eventName, description, host, date, startTime,link}) => {
+function EventShowcase(props) {
+    const { image, eventName, description, host, date, startTime} = data[0]
 
         return (
           <Event
@@ -14,15 +14,7 @@ function EventList() {
             host={host}
             date={date}
             startTime={startTime}
-            link={link}
           />
         )
-      })
-      return (
-        <div className="EventList">
-          { events }
-        </div>
-      )
-}
-
-export default EventList
+      }
+export default EventShowcase
