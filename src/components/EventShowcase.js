@@ -2,6 +2,7 @@
 import React from 'react';
 import './EventShowcase.css';
 import data from './events.json';
+import { Link } from 'react-router-dom';
 
 function EventShowcase(props) {
     const { image, eventName, description, host, date, startTime,link} = data[0]
@@ -16,7 +17,13 @@ function EventShowcase(props) {
              <h2>Hosted by {host}</h2>
              <h3> {description} </h3>
              <h3>Link: {link} </h3>
-          </div>
+
+             <Link to="/stage">
+                <button type="button">
+                    Join Event!
+                </button>
+            </Link>
+            </div>
         )
       }
 export default EventShowcase

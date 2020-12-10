@@ -10,7 +10,7 @@ function NavBar() {
           <div className="LogoImage">
             <img src='./images/bonfire.png' alt='LogoImage' width='70'></img>
           </div>
-          <div className="LogoText">Bonfyre</div>
+          <div className="LogoText">Bondfyre</div>
         </div>
         
         <NavLink
@@ -29,12 +29,12 @@ function NavBar() {
           activeClassName="nav-link-active"
           exact
           to="/schedule">Schedule</NavLink>
-        <NavLink
+        {/* <NavLink
           className="nav-link"
           activeClassName="nav-link-active"
           exact
           to="/lounge">Lounge
-        </NavLink>
+        </NavLink> */}
         </header>
       </div>
     )

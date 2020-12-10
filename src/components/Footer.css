@@ -1,5 +1,10 @@
 .Footer {
     width: 100%;
     text-align: center;
-    background-color: blue;
+    border-top: 0.25vh solid #778ca3;
+    margin-top:2vh;
+}
+
+h1{
+    padding:1vh;
 }
