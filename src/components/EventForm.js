@@ -14,6 +14,7 @@ function EventForm() {
    }, 3000)
    //alert('Thank you for submitting!')
  }
+
   return(
     <div className="wrapper">
       <h1>Submit Event</h1>
